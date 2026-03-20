@@ -1,0 +1,135 @@
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background:#fafafa;
+}
+
+/* HEADER */
+.top-header{
+background:white;
+padding:15px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+border-bottom:1px solid #ddd;
+}
+
+/* NAVBAR */
+.navbar{
+display:flex;
+justify-content:center;
+background:white;
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+.navbar a{
+margin:0 20px;
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+.navbar a:hover{
+color:#ff3f6c;
+}
+
+/* HERO */
+.hero{
+background:url('fashion-banner.jpg');
+height:300px;
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:40px;
+margin:0;
+}
+
+/* SECTION */
+.section-title{
+text-align:center;
+margin-top:30px;
+}
+
+/* CATEGORIES */
+.categories{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:20px;
+}
+
+.category-box{
+width:200px;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 10px #ddd;
+text-align:center;
+cursor:pointer;
+}
+
+.category-box img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.category-box:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+/* PRODUCTS */
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.product{
+background:white;
+width:220px;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px #ddd;
+text-align:center;
+transition:0.3s;
+}
+
+.product:hover{
+transform:translateY(-5px);
+}
+
+.product img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.btn{
+background:#ff3f6c;
+color:white;
+padding:10px;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
