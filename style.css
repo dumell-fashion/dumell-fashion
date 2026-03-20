@@ -37,7 +37,7 @@ color:#ff3f6c;
 .search-box{
 display:flex;
 justify-content:center;
-margin:15px;
+margin:15px 0;
 }
 
 .search-box input{
