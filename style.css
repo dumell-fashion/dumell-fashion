@@ -161,3 +161,20 @@ text-align:center;
 padding:15px;
 margin-top:30px;
 }
+/* category sectio */
+.category-box{
+text-decoration:none;
+color:black;
+display:block;
+width:200px;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 0 10px #ddd;
+text-align:center;
+cursor:pointer;
+}
+.category-box:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
