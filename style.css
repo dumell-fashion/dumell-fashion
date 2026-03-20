@@ -162,6 +162,13 @@ padding:15px;
 margin-top:30px;
 }
 /* category sectio */
+.categories{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:20px;
+}
+
 .category-box{
 text-decoration:none;
 color:black;
@@ -173,8 +180,4 @@ overflow:hidden;
 box-shadow:0 0 10px #ddd;
 text-align:center;
 cursor:pointer;
-}
-.category-box:hover{
-transform:scale(1.05);
-transition:0.3s;
 }
