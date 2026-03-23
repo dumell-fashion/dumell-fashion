@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Dumell Fashion</h1>
+
+<div style="text-align:center; margin-top:30px;">
+
+<img id="pimg" width="300"><br><br>
+
+<h2 id="pname"></h2>
+<p id="pprice"></p>
+
+<a id="plink" class="btn">Buy Now</a>
+
+</div>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+document.getElementById("pname").innerText = params.get("name");
+document.getElementById("pprice").innerText = "₹" + params.get("price");
+document.getElementById("pimg").src = params.get("img");
+document.getElementById("plink").href = params.get("link");
+
+</script>
+
+</body>
+</html>
