@@ -179,12 +179,26 @@ grid-template-columns: 1fr;
 width:100%;
 }
 
-.hero h1{
-font-size:24px;
+header{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+margin:10px 0;
+}
+
+.search-box{
+flex-direction:column;
 }
 
 .search-box input{
-width:200px;
+width:90%;
+margin-bottom:10px;
 }
 
+}
+img{
+max-width:100%;
+height:auto;
 }
